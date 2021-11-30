@@ -1,0 +1,5 @@
+#! /bin/bash
+
+for name in albi alex alexander alejandro aurelie benjamin brennan felipe harry hemal hugo max nathaniel owen ruby ruaridh sarah sophie vav yan sil
+do
+HInit -S lists/trainList.txt -l $name -L labels/train -M hmms -o $name -T 1 lib/proto4States.txt
